@@ -1,0 +1,6 @@
+
+{
+  "version": 2,
+  "builds": [{ "src": "movie_backend.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/search", "dest": "movie_backend.js" }]
+}
